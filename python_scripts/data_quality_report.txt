@@ -1,0 +1,30 @@
+Data Quality Report
+Missing Data:
+OrderID         0
+CustomerName    0
+Product         0
+Quantity        0
+OrderDate       0
+ShipmentDate    0
+DeliveryDate    0
+Price           0
+dtype: int64
+Incorrect Quantity:
+Empty DataFrame
+Columns: [OrderID, CustomerName, Product, Quantity, OrderDate, ShipmentDate, DeliveryDate, Price]
+Index: []
+Incorrect Delivery Dates:
+Empty DataFrame
+Columns: [OrderID, CustomerName, Product, Quantity, OrderDate, ShipmentDate, DeliveryDate, Price]
+Index: []
+
+Summary Statistics:
+       OrderID  Quantity        Price
+count      3.0       3.0     3.000000
+mean       2.0       2.0   866.666667
+std        1.0       1.0   305.505046
+min        1.0       1.0   600.000000
+25%        1.5       1.5   700.000000
+50%        2.0       2.0   800.000000
+75%        2.5       2.5  1000.000000
+max        3.0       3.0  1200.000000
