@@ -43,15 +43,3 @@ This project focuses on analyzing supply chain data to extract valuable insights
     5. Launch the Streamlit dashboard:
 
         streamlit run supply_chain_dashboard.py
-
-
-📂 Project Structure
-
-├── supply_chain_data.csv      # Dataset
-├── supply_chain.db            # SQLite database
-├── python_scripts             # Python scripts for data analysis
-│   ├── data_import.py         # Import CSV to SQLite
-│   └── sql_automation.py      # Automated SQL queries
-├── supply_chain_dashboard.py  # Streamlit dashboard
-└── README.md                  # Project documentation
-
