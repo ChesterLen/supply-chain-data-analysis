@@ -1,6 +1,5 @@
 import sqlite3
 import pandas as pd
-from sqlalchemy import create_engine
 
 conn = sqlite3.connect('../supply_chain.db')
 
